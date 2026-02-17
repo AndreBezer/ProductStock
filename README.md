@@ -8,11 +8,13 @@ Fazer um programa para ler os dados de um produto em estoque (nome, preço e qua
   
 Para resolver este problema, você deve criar
 uma CLASSE conforme projeto ao lado:
-(veja exemplo na próxima página)
+
+Product
+
 - Name: string
 - Price: double
 -Quantity: int
-Product
+
 + TotalValueInStock(): double
 + AddProducts(quantity: int): void
 + RemoveProducts(quantity: int): void
